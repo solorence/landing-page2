@@ -2,24 +2,30 @@
 
 .section1{display:flex; flex-direction:column; height:300px; background-color:#1f2937; color:white;}
 
-.section1part1{display:flex; justify-content:space-around;}
-.headerlink ul{list-style-type:none; margin:0; padding:0; display:flex;}
+.section1part1{display:flex; justify-content:center;}
+.logo, .headerlink{width:40%;}
+.logo{font-weight:bold; margin-right:15px;}
+.headerlink{margin-left:15px;}
+.headerlink ul{list-style-type:none; margin:0; padding:0; display:flex; justify-content:flex-end;}
 .headerlink a{text-decoration:none;}
 
 .section1part2{display:flex; justify-content:center; flex-grow:1; align-items:center;}
 .s1p2div{display:flex; justify-content:center;}
-.s1p2a{width:40%;}
+.s1p2a{width:40%; margin-right:15px;}
 .s1p2a .text1{font-size:32px; font-weight:bold}
-.s1p2a .button1{display:inline-block; border-radius:5px; background-color:#3b81f5; padding:3px 20px;}
-.s1p2b{display:flex; justify-content:center; align-items:center; width:40%; background-color:#6d747e;}
+.s1p2a .button1{display:inline-block; border-radius:5px; background-color:#3b81f5; padding:3px 20px; margin-top:5px;}
+.s1p2b{display:flex; justify-content:center; align-items:center; width:40%; background-color:#6d747e; margin-left:15px;}
 
-.section2{height:300px; display:flex; flex-direction:column;}
-.s2heading{text-align:center; font-size:40px: font-weight:900;}
+.section2{height:350px; display:flex; flex-direction:column;}
+.s2heading{text-align:center; font-size:25px; font-weight:bold; padding:20px;}
 .section2 .frame-group{display:flex; justify-content:center; text-align:center;}
-.frame{display:flex; flex-direction:column; margin:0 15px; border:1px solid red; flex-basis:150px; height:200px}
-.section2 .square{border:1px solid blue; flex-grow:1; }
+.frame{display:flex; flex-direction:column; margin:0 15px; flex-basis:150px; height:200px}
+.section2 .square{border:3px solid #3b81f5; border-radius:10px; solid blue; flex-grow:1; margin-bottom:5px; }
 
-.section3{height:300px;}
+.section3{display:flex; flex-direction:column; justify-content:center; align-items:center; height:300px; background-color:#dddff3;}
+.section3-group{width:70%}
+.s3part1{font-size:22px; line-height:30px; font-style:italic;}
+.s3part2{font-weight:bold; text-align:right}
 
 .section4{height:200px;}
 .section5{height:30px;}
