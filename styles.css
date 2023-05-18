@@ -27,5 +27,9 @@
 .s3part1{font-size:22px; line-height:30px; font-style:italic;}
 .s3part2{font-weight:bold; text-align:right}
 
-.section4{height:200px;}
+.section4{height:200px; display:flex; justify-content:center; align-items:center;}
+.s4group{display:flex; width:80%; justify-content:space-evenly; align-items:flex-end; background-color:#3882f6; color:white; padding:30px 0; border-radius:5px;}
+.s4part1 .div1{font-weight:bold;}
+.s4part2{border:1px solid white; border-radius:5px; height:20px; padding:3px 20px;}
+
 .section5{height:30px;}
